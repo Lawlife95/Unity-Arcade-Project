@@ -8,7 +8,8 @@ public class PlayerHealth : MonoBehaviour
     [Header("PLAYER")]
     public float startLife;
     private float currentLife;
-    public float maxLife = 8f;
+    [Range (1, 20)]public int maxLife = 8;
+    public GameObject RespawnPoint;
     [Header("INTERFACE")]
     public GameObject LifelistUI;
     private UIDisplayHealth UIsciprt;
@@ -22,17 +23,22 @@ public class PlayerHealth : MonoBehaviour
         currentLife = startLife;
         UIsciprt = LifelistUI.GetComponent<UIDisplayHealth>();
         UIsciprt.CreateLifeUI(currentLife, maxLife);
+        Respawn();
     }
 
 
     public void ChangeHealth(float healthValue)
     {
 
-        //clamp life <=-1 ou =>maxlife
+        //clamp life <=-1 ou =>maxlife   (si <1 appelle fonction Loose Window
         currentLife = currentLife + healthValue;                 //currentLife += healthValue;
-        //appelle de la fonction upadate de L'UI
-        //get la liste des index length = nomre d'image
-        //crée les images
+        UIsciprt.updateLifeUI(currentLife);
+
+    }
+
+    public void Respawn()
+    {
+        transform.position = new Vector3(RespawnPoint.transform.position.x, RespawnPoint.transform.position.y, 0);
     }
 
 

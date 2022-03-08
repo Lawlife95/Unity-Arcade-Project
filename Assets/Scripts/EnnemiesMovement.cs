@@ -48,7 +48,11 @@ public class EnnemiesMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)           //Detection des DeadZone
     {
-        DestroySelf();
+        if (collision.tag == "DeadZone")
+        {
+            DestroySelf();
+        }
+        
     }
 
     //trigger les degats sur le joueur dans un autre script
