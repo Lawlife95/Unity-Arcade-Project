@@ -1,0 +1,1368 @@
+fileFormatVersion: 2
+guid: 77907ab3cba3c7b4eb46f05a572ebb89
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3107391847606145516
+    second: Frogger SripteSheet -export_0
+  - first:
+      213: 4221906755278845298
+    second: Frogger SripteSheet -export_1
+  - first:
+      213: 2567176653502243956
+    second: Frogger SripteSheet -export_2
+  - first:
+      213: -6969217416252899686
+    second: Frogger SripteSheet -export_3
+  - first:
+      213: 1490485174984475360
+    second: Frogger SripteSheet -export_4
+  - first:
+      213: -1502597825947368882
+    second: Frogger SripteSheet -export_5
+  - first:
+      213: 4910255453745519702
+    second: Frogger SripteSheet -export_6
+  - first:
+      213: -7604684835604341396
+    second: Frogger SripteSheet -export_7
+  - first:
+      213: -2792667841367016175
+    second: Frogger SripteSheet -export_8
+  - first:
+      213: -7655254373640116052
+    second: Frogger SripteSheet -export_9
+  - first:
+      213: -8140096395886722324
+    second: Frogger SripteSheet -export_10
+  - first:
+      213: 5079392201847691562
+    second: Frogger SripteSheet -export_11
+  - first:
+      213: 7679122973997270364
+    second: Frogger SripteSheet -export_12
+  - first:
+      213: 3084895209753269604
+    second: Frogger SripteSheet -export_13
+  - first:
+      213: 1737358058746875525
+    second: Frogger SripteSheet -export_14
+  - first:
+      213: -8861371449672898638
+    second: Frogger SripteSheet -export_15
+  - first:
+      213: 6582040808660775984
+    second: Frogger SripteSheet -export_16
+  - first:
+      213: -5672647003514543034
+    second: Frogger SripteSheet -export_17
+  - first:
+      213: -1880037830765004326
+    second: Frogger SripteSheet -export_18
+  - first:
+      213: 4210064674978824596
+    second: Frogger SripteSheet -export_19
+  - first:
+      213: 3733271599385251431
+    second: Frogger SripteSheet -export_20
+  - first:
+      213: 9212985557693930767
+    second: Frogger SripteSheet -export_21
+  - first:
+      213: -1438193950255525778
+    second: Frogger SripteSheet -export_22
+  - first:
+      213: 8210699554781205935
+    second: Frogger SripteSheet -export_23
+  - first:
+      213: -7485890945788057276
+    second: Frogger SripteSheet -export_24
+  - first:
+      213: -7975896810450654561
+    second: Frogger SripteSheet -export_25
+  - first:
+      213: 4156834596840403535
+    second: Frogger SripteSheet -export_26
+  - first:
+      213: -7756810767333418616
+    second: Frogger SripteSheet -export_27
+  - first:
+      213: 7972013566129235476
+    second: Frogger SripteSheet -export_28
+  - first:
+      213: -7201178631242563391
+    second: Frogger SripteSheet -export_29
+  - first:
+      213: -6563708281044575212
+    second: Frogger SripteSheet -export_30
+  - first:
+      213: -5081160218459087390
+    second: Frogger SripteSheet -export_31
+  - first:
+      213: -1767908093139177383
+    second: Frogger SripteSheet -export_32
+  - first:
+      213: -130208319908650187
+    second: Frogger SripteSheet -export_33
+  - first:
+      213: -885164598542922046
+    second: Frogger SripteSheet -export_34
+  - first:
+      213: -5575456108659795245
+    second: Frogger SripteSheet -export_35
+  - first:
+      213: -4521693813415375807
+    second: Frogger SripteSheet -export_36
+  - first:
+      213: -4799133207068312981
+    second: Frogger SripteSheet -export_37
+  - first:
+      213: -942981477557407635
+    second: Frogger SripteSheet -export_38
+  - first:
+      213: -7095911158200198628
+    second: Frogger SripteSheet -export_39
+  - first:
+      213: -660677046210985032
+    second: Frogger SripteSheet -export_40
+  - first:
+      213: 1893657723979817540
+    second: Frogger SripteSheet -export_41
+  - first:
+      213: 2623186741963745016
+    second: Frogger SripteSheet -export_42
+  - first:
+      213: 5109997546707489956
+    second: Frogger SripteSheet -export_43
+  - first:
+      213: 3063466503071489848
+    second: Frogger SripteSheet -export_44
+  - first:
+      213: 2173386958656326020
+    second: Frogger SripteSheet -export_45
+  - first:
+      213: -1325125302696324291
+    second: Frogger SripteSheet -export_46
+  - first:
+      213: -6037346207529410063
+    second: Frogger SripteSheet -export_47
+  - first:
+      213: 6092096104563422242
+    second: Frogger SripteSheet -export_48
+  - first:
+      213: -4905447634980641222
+    second: Frogger SripteSheet -export_49
+  - first:
+      213: -8392979752973226683
+    second: Frogger SripteSheet -export_50
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 15
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 201
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce15286fb6caf1b20800000000000000
+      internalID: 3107391847606145516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 199
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275b73743d9379a30800000000000000
+      internalID: 4221906755278845298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 199
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4746dab909170a320800000000000000
+      internalID: 2567176653502243956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_3
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 199
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9eb7c53fad584f90800000000000000
+      internalID: -6969217416252899686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_4
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 200
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e28fe5ae544fa410800000000000000
+      internalID: 1490485174984475360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_5
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 199
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4202280d33b52be0800000000000000
+      internalID: -1502597825947368882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 199
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c1decc15bb42440800000000000000
+      internalID: 4910255453745519702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_7
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 199
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6dd001fe6bb67690800000000000000
+      internalID: -7604684835604341396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 172
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d79abf4637e39d0800000000000000
+      internalID: -2792667841367016175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_9
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 173
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8ece9d4b213c590800000000000000
+      internalID: -7655254373640116052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_10
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce20cbdb471980f80800000000000000
+      internalID: -8140096395886722324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_11
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 173
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29550abb40ad7640800000000000000
+      internalID: 5079392201847691562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_12
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 172
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5506abb8a9b19a60800000000000000
+      internalID: 7679122973997270364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_13
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465d5aa49dfbfca20800000000000000
+      internalID: 3084895209753269604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_14
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 171
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e054313f55c1810800000000000000
+      internalID: 1737358058746875525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 146
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b76577bd95160580800000000000000
+      internalID: -8861371449672898638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_16
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 144
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034b9590e3b185b50800000000000000
+      internalID: 6582040808660775984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_17
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644e453fa95b641b0800000000000000
+      internalID: -5672647003514543034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_18
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 146
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9b4f4cd83c8e5e0800000000000000
+      internalID: -1880037830765004326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_19
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 146
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491888914872d6a30800000000000000
+      internalID: 4210064674978824596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 120
+        width: 42
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e896b6dbe3fc330800000000000000
+      internalID: 3733271599385251431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_21
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 117
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d962f5d891bdf70800000000000000
+      internalID: 9212985557693930767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_22
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 117
+        width: 47
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6057ecd8328a0ce0800000000000000
+      internalID: -1438193950255525778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_23
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 90
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa511303eb342f170800000000000000
+      internalID: 8210699554781205935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 89
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4496df4c8d5cc1890800000000000000
+      internalID: -7485890945788057276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_25
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 89
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9aeae7eb1cef4190800000000000000
+      internalID: -7975896810450654561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_26
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 88
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42f9beba0b00b930800000000000000
+      internalID: 4156834596840403535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_27
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8899a2754b54a5490800000000000000
+      internalID: -7756810767333418616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 57
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4166ab1d91842ae60800000000000000
+      internalID: 7972013566129235476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_29
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 57
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c047a83036401c90800000000000000
+      internalID: -7201178631242563391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_30
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c5c0b281609e4a0800000000000000
+      internalID: -6563708281044575212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_31
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed56e3d3b71c79b0800000000000000
+      internalID: -5081160218459087390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_32
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 59
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950b6e0c4f02777e0800000000000000
+      internalID: -1767908093139177383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_33
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 56
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5336b011938613ef0800000000000000
+      internalID: -130208319908650187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_34
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 56
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce0918cc7347b3f0800000000000000
+      internalID: -885164598542922046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 36
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da1d8e853000a2b0800000000000000
+      internalID: -5575456108659795245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_36
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 36
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c8b440f67bf31c0800000000000000
+      internalID: -4521693813415375807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_37
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 36
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a79ea66cd066db0800000000000000
+      internalID: -4799133207068312981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_38
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 36
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60fa60a75bd9e2f0800000000000000
+      internalID: -942981477557407635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_39
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 36
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a1fb9b562468d90800000000000000
+      internalID: -7095911158200198628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_40
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 39
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b307551abdc4d6f0800000000000000
+      internalID: -660677046210985032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_41
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 40
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442edfbbaaf974a10800000000000000
+      internalID: 1893657723979817540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_42
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 39
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6634e817e676420800000000000000
+      internalID: 2623186741963745016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_43
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 39
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a41e9ed1bb5ae640800000000000000
+      internalID: 5109997546707489956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_44
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 39
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f52e8bd8e938a20800000000000000
+      internalID: 3063466503071489848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_45
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 39
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4894d2e7ceb692e10800000000000000
+      internalID: 2173386958656326020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_46
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 39
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3357e9de853c9de0800000000000000
+      internalID: -1325125302696324291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_47
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 39
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1682a8c99073ca0800000000000000
+      internalID: -6037346207529410063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_48
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 5
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2243b0a31297b8450800000000000000
+      internalID: 6092096104563422242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 5
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36e2bcbd595cebb0800000000000000
+      internalID: -4905447634980641222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frogger SripteSheet -export_50
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 88
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d2cf0f165268b80800000000000000
+      internalID: -8392979752973226683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

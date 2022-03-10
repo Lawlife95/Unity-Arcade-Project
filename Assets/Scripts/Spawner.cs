@@ -6,18 +6,16 @@ public class Spawner : MonoBehaviour
 {
 
     public bool rightToLeft;
-    public GameObject EnnemiesPrefabs;           //array list Prefab possible
-                                                 //Spawn rate des camions
+    public GameObject[] EnnemiesPrefabs;           
     public float moveSpeed;
     public float maxSpeedClamp;
-    [Range(1,20)] public float SpawnWait; // add un range aleatoire
+    [Range(1,20)] public float SpawnWait;        // add un range aleatoire (SpawnwaitMax/spawnWaitMin)
     
    
 
     // Start is called before the first frame update
     void Start()
     {
-        //initialisation de l'array (ennemie list)
         StartCoroutine(timerSpawn());
     }
 
@@ -25,7 +23,7 @@ public class Spawner : MonoBehaviour
     {
         while (1 == 1)
         {
-            Instantiate(EnnemiesPrefabs, transform);                    //Get un gameobject random dans l'array 
+            Instantiate(EnnemiesPrefabs[Random.Range(0,EnnemiesPrefabs.Length)], transform);     //Take Random GameObject dans l'array               //Get un gameobject random dans l'array 
             yield return new WaitForSeconds(SpawnWait);
         }
     }
