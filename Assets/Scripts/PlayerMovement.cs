@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rB2D;
     public float moveDistance;
     public float moveTime;
-    private Vector3 directionTest;   //temporaire
+    
 
     // Start is called before the first frame update
     void Start()
@@ -28,7 +28,6 @@ public class PlayerMovement : MonoBehaviour
         direction = obj.ReadValue<Vector2>();
         if (obj.started)
             transform.position = new Vector2 (transform.position.x + (direction.x* moveDistance), transform.position.y + (direction.y* moveDistance));       //Destination
-       
     }
 
 

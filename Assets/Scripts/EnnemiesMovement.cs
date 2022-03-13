@@ -6,20 +6,24 @@ public class EnnemiesMovement : MonoBehaviour
 {
 
     
-    public Spawner spawnScript;         // Script spawner
-    public Collider2D coll2D;
-    public Rigidbody2D rB2D;
-    private bool goRightToLeft;        
+    public Spawner spawnScript;       //a caché 
+    private Collider2D coll2D;
+    private Rigidbody2D rB2D;
+    public bool goRightToLeft;        //a caché
+    private SpriteRenderer sprite;
     
 
     // Start is called before the first frame update
     void Start()
     {
+        sprite = GetComponent<SpriteRenderer>();
         rB2D = GetComponent<Rigidbody2D>();
         spawnScript = transform.parent.gameObject.GetComponent <Spawner>();
         goRightToLeft = spawnScript.rightToLeft;
         coll2D = GetComponent<BoxCollider2D>();
+        FlipSprite();
         StartCoroutine(SecureDelays());
+
     }
 
     // Update is called once per frame
@@ -55,6 +59,13 @@ public class EnnemiesMovement : MonoBehaviour
         
     }
 
-    //trigger les degats sur le joueur dans un autre script
+    public void FlipSprite()  //add dans un autre script + get script du spawner
+    {
+        if (goRightToLeft)
+        {
+            sprite.flipX = true;
+        }
+    }
+   
 
 }
