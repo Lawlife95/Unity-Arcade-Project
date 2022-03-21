@@ -10,13 +10,14 @@ public class Spawner : MonoBehaviour
     public float moveSpeed;
     public float maxSpeedClamp;
     [Range(1,20)] public float SpawnWait;        // add un range aleatoire (SpawnwaitMax/spawnWaitMin)
+    public float delayStart;
     
    
 
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(timerSpawn());
+        StartCoroutine(Delays());
     }
 
     public IEnumerator timerSpawn()
@@ -28,6 +29,10 @@ public class Spawner : MonoBehaviour
         }
     }
 
-     
+     private IEnumerator Delays()
+    {
+        yield return new WaitForSeconds(delayStart);
+        StartCoroutine(timerSpawn());
+    }
 
 }

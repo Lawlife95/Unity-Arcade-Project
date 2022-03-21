@@ -6,6 +6,8 @@ TagManager:
   tags:
   - DeadZone
   - WaterObject
+  - WaterArea
+  - ScoreArea
   layers:
   - Default
   - TransparentFX
@@ -17,7 +19,7 @@ TagManager:
   - DeadZone
   - Life
   - WaterEnnemy
-  - 
+  - Score
   - 
   - 
   - 

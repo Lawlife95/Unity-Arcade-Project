@@ -13,17 +13,21 @@ public class PlayerHealth : MonoBehaviour
     [Header("INTERFACE")]
     public GameObject LifelistUI;
     private UIDisplayHealth UIsciprt;
-    
-  
+    public GameObject scoreArea;
+    private UIScore uIscore;
+    private bool isStarting;
+    public int frogNumber;
     
 
     // Start is called before the first frame update
     void Start()
     {
+        uIscore = scoreArea.GetComponent<UIScore>();
         currentLife = startLife;
         UIsciprt = LifelistUI.GetComponent<UIDisplayHealth>();
         UIsciprt.CreateLifeUI(currentLife, maxLife);
         Respawn();
+        isStarting = true;
     }
 
 
@@ -39,7 +43,21 @@ public class PlayerHealth : MonoBehaviour
     public void Respawn()
     {
         transform.position = new Vector3(RespawnPoint.transform.position.x, RespawnPoint.transform.position.y, 0);
+        if (isStarting)
+        {
+            uIscore.ResetScoreArea(); //reset de position
+        }
+        
     }
 
+    public void addfrog(int frog)
+    {
+        frogNumber = frogNumber + frog;
+        if(frogNumber >= 5)
+        {
+            //Victory Screen
+            Debug.Log("You win");
+        }
+    }
 
 }

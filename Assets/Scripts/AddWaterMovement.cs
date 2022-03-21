@@ -12,13 +12,14 @@ public class AddWaterMovement : MonoBehaviour
     private float spawnerClampMov;
     private bool onWaterObject;
     private bool rTL;
-
+    private CheckIsOnWater cIW;
 
     void Start()
     {
         rB2D = GetComponent<Rigidbody2D>();
         c2D = GetComponent<Collider2D>();
         playerMov = GetComponent<PlayerMovement>();
+        cIW = GetComponent<CheckIsOnWater>();
     }
     private void Update()
     {
@@ -47,6 +48,7 @@ public class AddWaterMovement : MonoBehaviour
             spawnerClampMov = enemieMov.spawnScript.maxSpeedClamp;
             rTL = enemieMov.spawnScript.rightToLeft;
             onWaterObject = true;
+            cIW.UpdateOnObject(onWaterObject);
         }
     }
 
@@ -56,6 +58,7 @@ public class AddWaterMovement : MonoBehaviour
         {
             onWaterObject = false;
             rB2D.velocity = Vector2.zero;
+            cIW.UpdateOnObject(onWaterObject);
         }
     }
     
@@ -69,5 +72,5 @@ public class AddWaterMovement : MonoBehaviour
         c2D.enabled = true;
     }
 
-
+    
 }
