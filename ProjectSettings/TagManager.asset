@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - DeadZone
+  - WaterObject
+  - WaterArea
+  - ScoreArea
   layers:
   - Default
   - TransparentFX
@@ -11,11 +15,11 @@ TagManager:
   - Player
   - Water
   - UI
-  - Ennemy
+  - GroundEnnemy
   - DeadZone
   - Life
-  - 
-  - 
+  - WaterEnnemy
+  - Score
   - 
   - 
   - 

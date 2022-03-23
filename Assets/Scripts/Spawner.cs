@@ -6,28 +6,33 @@ public class Spawner : MonoBehaviour
 {
 
     public bool rightToLeft;
-    public GameObject EnnemiesPrefabs;
+    public GameObject[] EnnemiesPrefabs;           
     public float moveSpeed;
     public float maxSpeedClamp;
-    [Range(1,20)] public float SpawnWait; // add un range aleatoire
+    [Range(1,20)] public float SpawnWait;        // add un range aleatoire (SpawnwaitMax/spawnWaitMin)
+    public float delayStart;
     
+   
 
     // Start is called before the first frame update
     void Start()
     {
-        // au lancement de la partie demarre une boucle
-        StartCoroutine(timerSpawn());
+        StartCoroutine(Delays());
     }
 
     public IEnumerator timerSpawn()
     {
         while (1 == 1)
         {
-            Instantiate(EnnemiesPrefabs, transform);
+            Instantiate(EnnemiesPrefabs[Random.Range(0,EnnemiesPrefabs.Length)], transform);     //Take Random GameObject dans l'array               //Get un gameobject random dans l'array 
             yield return new WaitForSeconds(SpawnWait);
         }
-
     }
 
+     private IEnumerator Delays()
+    {
+        yield return new WaitForSeconds(delayStart);
+        StartCoroutine(timerSpawn());
+    }
 
 }
