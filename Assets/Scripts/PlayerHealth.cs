@@ -37,7 +37,10 @@ public class PlayerHealth : MonoBehaviour
         //clamp life <=-1 ou =>maxlife   (si <1 appelle fonction Loose Window
         currentLife = currentLife + healthValue;                 //currentLife += healthValue;
         UIsciprt.updateLifeUI(currentLife);
-
+        if (currentLife <= 0)
+        {
+            StartCoroutine (LifeCountCheck());
+        }
     }
 
     public void Respawn()
@@ -60,4 +63,14 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
+    public IEnumerator LifeCountCheck()
+    {
+        yield return new WaitForSeconds(0.5f);
+        if (currentLife <= 0)
+        {
+            //death screen
+            Debug.Log("You loose");
+        }
+
+    }
 }

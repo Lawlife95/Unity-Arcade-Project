@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0.99999905, b: 0.99999905, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3773,7 +3773,7 @@ MonoBehaviour:
   rightToLeft: 1
   EnnemiesPrefabs:
   - {fileID: 6822923593593281545, guid: ba2332c468437a04c9e9541f161aafc1, type: 3}
-  moveSpeed: 10
+  moveSpeed: 3
   maxSpeedClamp: 3
   SpawnWait: 2.5
   delayStart: 0
@@ -4031,7 +4031,7 @@ MonoBehaviour:
   - {fileID: 8665293113344903367, guid: fe090b28dd0f4d34fa2ac3c5e121aa7b, type: 3}
   - {fileID: 8665293113344903367, guid: fe090b28dd0f4d34fa2ac3c5e121aa7b, type: 3}
   - {fileID: 8665293113344903367, guid: fe090b28dd0f4d34fa2ac3c5e121aa7b, type: 3}
-  moveSpeed: 2
+  moveSpeed: 1.5
   maxSpeedClamp: 1.5
   SpawnWait: 3
   delayStart: 0
@@ -5148,7 +5148,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.5501256, y: 0.5852399}
+  m_Offset: {x: 0.5501251, y: 0.5607853}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5159,7 +5159,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 19.470165, y: 6.4310246}
+  m_Size: {x: 19.470165, y: 6.3821154}
   m_EdgeRadius: 0
 --- !u!4 &1386810439
 Transform:
@@ -5334,7 +5334,7 @@ MonoBehaviour:
   - {fileID: 5129876150438253786, guid: 0b5f7c935f145e7429fbb5d25600c591, type: 3}
   - {fileID: 5129876150438253786, guid: 0b5f7c935f145e7429fbb5d25600c591, type: 3}
   - {fileID: 8721732867447387097, guid: 39cde874306c8954cbf46d9221014dd1, type: 3}
-  moveSpeed: 2
+  moveSpeed: 1.5
   maxSpeedClamp: 1.5
   SpawnWait: 3
   delayStart: 0
@@ -5639,7 +5639,7 @@ MonoBehaviour:
   rightToLeft: 1
   EnnemiesPrefabs:
   - {fileID: 3521450454472530327, guid: 99fc5e7e237146a46b9423c34b708809, type: 3}
-  moveSpeed: 5
+  moveSpeed: 1
   maxSpeedClamp: 1
   SpawnWait: 5
   delayStart: 0
@@ -6155,7 +6155,7 @@ MonoBehaviour:
   rightToLeft: 1
   EnnemiesPrefabs:
   - {fileID: 368754159285406086, guid: c4d377cecee901e43b884765922c2625, type: 3}
-  moveSpeed: 4
+  moveSpeed: 2
   maxSpeedClamp: 2
   SpawnWait: 5
   delayStart: 0

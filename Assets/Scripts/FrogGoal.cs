@@ -29,12 +29,13 @@ public class FrogGoal : MonoBehaviour
                 sprite.enabled = true;
                 pHealth.ChangeHealth(+2);
                 UIScore.scoreGain(ScoreGain);
-                pHealth.addfrog(1);
+                pHealth.addfrog(1);                   //for win screen
                 isTrigger = true;
                 
 
             if(isTrigger)
             {
+                pHealth.Respawn();
                 bC2D.enabled = false;
             }
         }
