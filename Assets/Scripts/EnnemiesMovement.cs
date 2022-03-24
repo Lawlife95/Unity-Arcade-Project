@@ -27,16 +27,20 @@ public class EnnemiesMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        if (rB2D.velocity.x < spawnScript.maxSpeedClamp & goRightToLeft == true)
+        var direction = goRightToLeft ? -1 : 1;      //ternaire
+        rB2D.AddForce((transform.right * spawnScript.moveSpeed) * direction);
+
+        /*if (rB2D.velocity.x < spawnScript.maxSpeedClamp & goRightToLeft == true)
         {
-            rB2D.AddForce(transform.right * spawnScript.moveSpeed, ForceMode2D.Force);    //droite vers la gauche
+            rB2D.AddForce(transform.right * spawnScript.moveSpeed);    //droite vers la gauche
         } 
         if (rB2D.velocity.x > (spawnScript.maxSpeedClamp)*-1 && goRightToLeft == false)
         {
-            rB2D.AddForce((transform.right * spawnScript.moveSpeed)*-1, ForceMode2D.Force);      // gauche vers la droite
-        }
+            rB2D.AddForce((transform.right * spawnScript.moveSpeed)*-1);      // gauche vers la droite
+            //change Velocity
+        }*/
     }
 
     private IEnumerator SecureDelays()

@@ -34,7 +34,7 @@ public class PlayerHealth : MonoBehaviour
     public void ChangeHealth(float healthValue)
     {
 
-        //clamp life <=-1 ou =>maxlife   (si <1 appelle fonction Loose Window
+        //clamp life <=-1 ou =>maxlife   
         currentLife = currentLife + healthValue;                 //currentLife += healthValue;
         UIsciprt.updateLifeUI(currentLife);
         if (currentLife <= 0)
