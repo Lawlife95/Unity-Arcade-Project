@@ -30,17 +30,9 @@ public class EnnemiesMovement : MonoBehaviour
     void FixedUpdate()
     {
         var direction = goRightToLeft ? -1 : 1;      //ternaire
-        rB2D.AddForce((transform.right * spawnScript.moveSpeed) * direction);
+        
+        rB2D.velocity = new Vector2 (-direction * spawnScript.moveSpeed,0);
 
-        /*if (rB2D.velocity.x < spawnScript.maxSpeedClamp & goRightToLeft == true)
-        {
-            rB2D.AddForce(transform.right * spawnScript.moveSpeed);    //droite vers la gauche
-        } 
-        if (rB2D.velocity.x > (spawnScript.maxSpeedClamp)*-1 && goRightToLeft == false)
-        {
-            rB2D.AddForce((transform.right * spawnScript.moveSpeed)*-1);      // gauche vers la droite
-            //change Velocity
-        }*/
     }
 
     private IEnumerator SecureDelays()

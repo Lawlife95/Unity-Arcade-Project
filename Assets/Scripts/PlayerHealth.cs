@@ -17,11 +17,13 @@ public class PlayerHealth : MonoBehaviour
     private UIScore uIscore;
     private bool isStarting;
     public int frogNumber;
+    private EndScreen eS;
     
 
     // Start is called before the first frame update
     void Start()
     {
+        eS = GetComponent<EndScreen>();
         uIscore = scoreArea.GetComponent<UIScore>();
         currentLife = startLife;
         UIsciprt = LifelistUI.GetComponent<UIDisplayHealth>();
@@ -58,7 +60,7 @@ public class PlayerHealth : MonoBehaviour
         frogNumber = frogNumber + frog;
         if(frogNumber >= 5)
         {
-            //Victory Screen
+            eS.WinScreen();
             Debug.Log("You win");
         }
     }
@@ -68,7 +70,7 @@ public class PlayerHealth : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         if (currentLife <= 0)
         {
-            //death screen
+            eS.LooseScreen();
             Debug.Log("You loose");
         }
 
