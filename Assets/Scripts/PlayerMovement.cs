@@ -17,20 +17,18 @@ public class PlayerMovement : MonoBehaviour
         rB2D = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void movePlayer (InputAction.CallbackContext obj)
     {
+        if (!obj.started)
+        {
+            return;
+        }
         direction = obj.ReadValue<Vector2>();
-        if (obj.started)
-            transform.position = new Vector2 (transform.position.x + (direction.x* moveDistance), transform.position.y + (direction.y* moveDistance));       //Destination
+        transform.position = new Vector2 (transform.position.x + (direction.x* moveDistance), transform.position.y + (direction.y* moveDistance));       //Destination
+        //Test controller 
+        //check X/Y valeur la plus grande
+        //Move RigidBody au lieu des transforms 
     }
-
-
-
 }
   

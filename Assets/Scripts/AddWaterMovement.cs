@@ -22,21 +22,13 @@ public class AddWaterMovement : MonoBehaviour
         cIW = GetComponent<CheckIsOnWater>();
     }
     private void Update()
+
     {
-        
         if (onWaterObject)
         {
-            Debug.Log(onWaterObject);
-            if (rB2D.velocity.x < spawnerClampMov & rTL == true)
-            {
-                rB2D.AddForce(transform.right * spawnerMov, ForceMode2D.Force);
-            }
-            if (rB2D.velocity.x > (spawnerClampMov) * -1 && rTL == false)
-            {
-                rB2D.AddForce((transform.right * spawnerMov) * -1, ForceMode2D.Force);
-            }
+            var direction = rTL ? -1 : 1;
+            rB2D.velocity = new Vector2(-direction * spawnerMov, 0);
         }
-
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
